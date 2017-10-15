@@ -1,0 +1,55 @@
+#blog{
+	border:1px solid #ddd;
+}
+.item{
+	border:1px solid #06f;
+	width:200px;
+	float:left;
+	margin-left:30px;
+	margin-top:30px;
+}
+.txt{
+	color:#d00;
+	
+}
+.name{
+	font-size:25px;
+	font-weight: bold;
+}
+.page {
+	text-align:center;
+	margin-top: 40px;
+}
+.page li{
+	display: inline-block;
+	width:75px;
+	height:30px;
+	line-height: 30px;	
+	border:1px solid red;
+}
+.page li>a{
+	display: block;
+	height: 100%;
+}
+
+
+#msg_box,#fri_box,#flower_box{
+	width:200px;
+	height:350px;
+	border:1px solid red;
+	position:absolute;
+	background:#def;
+}
+#msg{
+	width:180px;
+	height:auto;
+}
+.sub,#close{
+	display: block;
+	width:75px;
+	height:30px;
+	line-height: 30px;
+	text-align: center;
+	background: #afc;
+	margin:10px auto 0;
+}

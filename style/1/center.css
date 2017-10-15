@@ -1,0 +1,127 @@
+#center{
+	height:500px;
+}
+.center_side,.center_main{
+	border:1px solid #a00;
+	height:100%;
+	float: left;
+}
+.center_side{
+	width:300px;
+}
+.center_main{
+	width:850px;
+	margin-left: 46px;
+}
+.side_nav{
+	width: 200px;
+	margin: 0 auto 0;
+	background-color: #eee;
+	text-align: center;
+	
+}
+.nav_list{
+	margin-top: 30px;
+}
+.nav_list li{
+	height: 30px;
+	line-height: 30px;
+	border-bottom: 1px dashed #666;
+}
+.nav_list li:first-child{
+	background-color: #ccc;
+}
+.main_box {
+	width:90%;
+	margin:30px auto 0;
+}
+.main_box li{
+	padding-top: 15px;
+	border-bottom: 1px dashed #333;
+
+}
+
+#editor{
+	display: block;
+	width:75px;
+	height: 30px;
+	line-height: 30px;
+	background-color: #abc;
+	margin:20px auto 0;
+	text-align: center;
+	border-radius: 5px;
+}
+
+.photo>span{
+	color:#06f;
+	position:relative;
+	left:-60px;
+	bottom:0px;
+	font-size: smaller;
+}
+
+
+/*选择头像*/
+#picBox{
+	width:500px;
+	height:560px; 
+	background-color: #E67979;
+	position: absolute;
+	top:0;
+	left:0;
+}
+#picBox>img{
+	margin-left: 50px;
+	margin-top: 25px;
+	border:2px solid #E67979;
+	cursor: pointer;
+}
+#picBox>img:hover,#picBox>img.active{
+	border-color: #06f;
+}
+
+#pic-btns{
+	padding-left:130px;
+	padding-top:20px;
+}
+#pic-btns>button{
+	width:75px;
+	height:35px;
+	line-height: 35px;
+	background-color: #06f;
+	color:#fff;
+	font-size: 18px;
+	font-weight: bold;
+	border-radius: 8px;
+	box-shadow: 5px 3px 3px yellow;
+	margin-left:30px;
+	cursor:pointer;
+}
+#local-btns{
+	margin-top: 20px;
+	position: relative;
+	text-align: center;
+}
+#file{
+	width:120px;
+	height:35px;
+	border:1px solid red;
+	opacity: 0;
+	position: relative;
+	z-index: 9999;
+	border-radius: 5px;
+
+}
+#fileText{
+	width:120px;
+	height:35px;
+	line-height: 35px;
+	background: #666;
+	color: #fff;
+	text-align: center;
+	display: block;
+	position: absolute;
+	top:0;
+	left: 190px;
+	cursor: pointer;
+}

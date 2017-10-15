@@ -1,0 +1,48 @@
+#list{
+	width:840px;
+	height: 565px;
+	border:1px solid #ccc;
+	float:right;
+}
+#list ul{
+	width:80%;
+	margin:30px auto 0;
+}
+#list ul li{
+	border-bottom: 1px dotted #666;
+	margin-top:15px;
+}
+#user{
+	width:340px;
+	height:275px;
+	border:1px solid #ccc;
+	float:left;
+}
+#user li{
+	float:left;
+	margin-left: 7px;
+}
+#pics{
+	width:340px;
+	height:250px;
+	border:1px solid #ccc;
+	margin-top:38px;
+	float:left;
+}
+
+
+.page {
+	text-align:center;
+	margin-top: 40px;
+}
+.page li{
+	display: inline-block;
+	width:75px;
+	height:30px;
+	line-height: 30px;	
+	border:1px solid red !important;;
+}
+.page li>a{
+	display: block;
+	height: 100%;
+}

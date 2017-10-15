@@ -1,0 +1,30 @@
+#login_form{
+	height:650px;
+	border:1px solid #ccc;
+}
+#login_form{
+	width:400px;
+	margin:0 auto;
+	background:#abc;
+}
+#login_form h3{
+	margin:25px 0 15px;
+}
+#login_form div{
+	margin-bottom:17px;
+}
+
+.sub-box{
+	text-align: center;
+
+}
+.sub-box input{
+	width:80px;
+	height:30px;
+	background:#06f;
+	border:0;
+	outline:0;
+	border-radius: 5px;
+	font-size:16px;
+	color: #fff;
+}
